@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/house" />
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:text="TextView"
+android:visibility="invisible"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="270dp"
+        android:paddingLeft="20dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#00009C"/>
+
+<!--<view
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="320dp"
+    android:background="#000000"
+    />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Facilities"
+        android:layout_marginTop="320dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:text="AC"
+        android:textSize="13sp"
+        android:textColor="#000000"/>
+
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="370dp"
+        android:text="SwimmingPool"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="390dp"
+        android:layout_below="@+id/img1"
+        android:textSize="13sp"
+        android:text="Garage"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="410dp"
+        android:layout_below="@+id/img1"
+        android:textSize="13sp"
+        android:text="Inverter"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+  <!--  <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="440dp"
+        android:layout_below="@+id/img1"
+        android:text="Rent::"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/colorPrimary"/>-->
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="430dp"
+        android:layout_below="@+id/img1"
+        android:text="Localities"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+
+
+
+
+      <TextView
+           android:id="@+id/AC"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/textView5"
+           android:layout_alignParentStart="true"
+           android:layout_marginStart="210dp"
+           android:text="TextView"
+          android:textStyle="bold"
+          android:textSize="13sp"
+           android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/SwimmingPool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginStart="210dp"
+        android:textStyle="bold"
+        android:text="TextView"
+        android:textSize="13sp"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/Garage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView10"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_marginStart="210dp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+   <TextView
+        android:id="@+id/Inverter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView11"
+       android:textSize="13sp"
+        android:layout_marginStart="210dp"
+       android:textStyle="bold"
+        android:text="TextView"
+        android:textColor="#000000" />
+  <!--  <TextView
+        android:id="@+id/Rent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginStart="250dp"
+
+        android:text="TextView"
+        android:textColor="@color/colorPrimary" />-->
+    <TextView
+        android:id="@+id/Localities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView12"
+        android:textStyle="bold"
+        android:layout_marginStart="210dp"
+        android:textSize="13sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="40dp"
+        android:layout_height="275dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/textView12"
+        android:src="@drawable/rs"
+        />
+
+    <TextView
+        android:id="@+id/Rent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_toRightOf="@+id/img2"
+        android:paddingLeft="0dp"
+        android:layout_marginTop="120dp"
+        android:textSize="30sp"
+        android:text="TextView"
+        android:textColor="#E91414"
+        />
+
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+android:visibility="invisible"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/img1"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+android:textStyle="bold"
+        android:layout_marginTop="480dp"
+        android:text="Booking date"
+        android:textColor="#001CD4"
+        android:textSize="16sp" />
+
+
+
+
+    <Button
+
+        android:id="@+id/editText"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@id/textView13"
+        android:background="@drawable/button6"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-25dp"
+        android:inputType="textPersonName"
+        android:shadowColor="#066960"
+        android:text="pick Date"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:padding="5sp"
+        android:textSize="17sp" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Inverter"
+        android:layout_alignEnd="@+id/Inverter"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="5dp"
+        android:text="Book"
+        android:background="@drawable/button5"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+
+</RelativeLayout>
